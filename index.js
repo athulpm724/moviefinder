@@ -1,6 +1,6 @@
 function search() {
     title = movieName.value;
-    fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=a1bbc6fd&t=${title}`).then(data => data.json()).then(wdata => display(wdata));
+    fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=a1bbc6fd&t=${title}`).then(data => data.json()).then(wdata => display(wdata));
 
     console.log(title);
 
